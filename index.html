@@ -5,16 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Assignment</title>
+
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body id="body">
+   
+    <nav class="nav-index">
     <ul>
       <li>Home</li>
       <li><a href="notes.html">Notes</a></li>
     </ul>
+    </nav>
 
     <header>
-      <h1>Darby Marshall</h1>
+      <h1 class="site-title">Darby Marshall</h1>
       <img
+        id="my-image"
         src="images/fishing.jpeg"
         alt="Darby Marshall"
         width="300"
@@ -31,14 +37,20 @@
         finished my 3 year contract in 2021, and then decided to move to Ottawa
         to begin a new educational journey.
       </p>
-      <p>
-        I like to be outdoors, camping, fishing, climbing and more!. I am
-        excited to be part of this program as a 1<sup>st</sup> year student.
-        <abbr title="Cascading Style Sheets">CSS</abbr> is a language that
-        describes the style of an HTML document.
+      
+      <h2 class="hobbies">Hobbies</h2>
+      
+      <ul class="hobbies">
+      <li>Camping</li>
+        <li>Fishing</li>
+        <li>Climbing</li>
+      </ul>
+
+        <abbr title="Cascading Style Sheets"><br>CSS</abbr> is a language that
+        describes the style of an HTML document.</br>
       </p>
 
-      <blockquote cite="Rocky Balboa">
+      <blockquote cite="Rocky Balboa" class="quote">
         It ain't about how hard you hit. It's about how hard you can get hit and
         keep moving forward. -<cite>Rocky Balboa</cite>
       </blockquote>
