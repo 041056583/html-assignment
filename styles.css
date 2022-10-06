@@ -49,3 +49,7 @@ a:active{
 .nav-notes{
     list-style-type: none;
 }
+
+a:hover{
+    background-color: green;
+}
