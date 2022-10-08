@@ -24,18 +24,18 @@ color: blue;
     background: green;
 }
 
-
-
 a:hover{
     color: rgb(204, 255, 0);
 }
 
 a:link{
     color: red;
+    text-decoration: none;
 }
 
 a:visited{
     color: orange;
+    text-decoration: none;
 }
 
 a:active{
@@ -52,4 +52,6 @@ a:active{
 
 a:hover{
     background-color: green;
+    text-decoration: none;
 }
+
